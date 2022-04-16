@@ -1,0 +1,22 @@
+footer{
+    margin-top: 10%;
+}
+
+.mid{
+    margin-bottom: 10%;
+    background-color: rgb(244, 244, 244);
+}
+
+.container{
+    margin-bottom: 10%;
+}
+
+.equipos {
+  text-align: center;
+  padding: 10%;
+}
+
+h2{
+  font-family: 'Road Rage', cursive;
+  font-size: 4rem;
+}

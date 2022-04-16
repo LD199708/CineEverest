@@ -1,0 +1,128 @@
+
+
+.Ticket-container {
+    margin: 50px 0;
+  }
+
+.TicketsBooking {
+    display: flex;
+    margin-left: 50%;
+    margin-right: 25%;
+    bottom: 50px;
+    padding: 5%;
+    background-color: #385466;
+    flex-direction: column;
+    color: #70DFDF;
+    font-weight:700;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    width: 80vh;
+    font-family: 'Lato', 'sans-serif';
+  }
+
+  
+
+
+  
+  .Ticket-container select {
+    background-color: rgb(239, 247, 248);
+    border: 0;
+    border-radius: 5px;
+    text-size-adjust: 25%;
+    font-size: 1.2rem;
+    margin-left: 40px;
+    padding: 5px 15px 5px 15px;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+  }
+
+  .container1 {
+    perspective: 1000px;
+    margin-bottom: 30px;
+    
+  }
+
+  .seat {
+    
+    background-color: #6879ad;
+    height: 15px;
+    width: 18px;
+    margin: 3px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  .seat.selected {
+    background-color: #8af66f;
+  }
+  
+  .seat.occupied {
+    background-color: rgb(238, 37, 37);
+  }
+  
+  .seat:nth-of-type(2) {
+    margin-right: 20px;
+  }
+  
+  .seat:nth-last-of-type(2) {
+    margin-left: 20px;
+  }
+  
+  .seat:not(.occupied):hover {
+    cursor: pointer;
+    transform: scale(1.2);
+  }
+  
+  .showcase .seat:not(.occupied):hover {
+    cursor: default;
+    transform: scale(1);
+  }
+  
+  .showcase {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: #70DFDF;
+    list-style-type: none;
+    
+    justify-content: space-between;
+  }
+  
+  .showcase li {
+    
+    align-items: center;
+    justify-content: center;
+    margin: 0 10px;
+  }
+  
+  .showcase li small {
+    margin-left: 10px;
+    text-size-adjust: 16%;
+    font-size: 1.0rem;
+
+  }
+  
+  .row {
+    display: flex;
+  }
+  
+  .screen {
+    justify-content: center;
+    background-color: #fff;
+    height: 75px;
+    width: 100%;
+    margin: 19px 0;
+    transform: rotateX(-45deg);
+    box-shadow: 0 3px 10px rgba(255, 255, 255, 0.75);
+  }
+  
+  p.textcompra {
+    margin: 7px 0;
+  }
+  
+  p.textcompra span {
+    color: #6feaf6;
+  }
